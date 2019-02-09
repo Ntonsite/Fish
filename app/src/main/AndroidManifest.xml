@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ntonsite.fish">
+
+    <application
+
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-6932609577577507~6927165343"
+        android:allowBackup="true"
+        android:icon="@drawable/splash_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GameOverActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="fishing-mobile-app"
+                    android:scheme="android-app-game"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>

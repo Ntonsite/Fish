@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "51255332608",
+    "firebase_url": "https://feeding-fish-98991.firebaseio.com",
+    "project_id": "feeding-fish-98991",
+    "storage_bucket": "feeding-fish-98991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51255332608:android:aaa364fec42c755b",
+        "android_client_info": {
+          "package_name": "com.ntonsite.fish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51255332608-roin5rqbbh2gsmkob8d9a8atjho1gfnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ntonsite.fish",
+            "certificate_hash": "9c34f47072655d19f88233821c18002f197c8ac9"
+          }
+        },
+        {
+          "client_id": "51255332608-8dfrh8cluce3kcifjlmr05jitucslrb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGAdPR9MtRQrivvnMqyosRufDKNn05eFI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51255332608-8dfrh8cluce3kcifjlmr05jitucslrb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
